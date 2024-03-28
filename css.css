@@ -44,3 +44,69 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Styles spécifiques pour la page d'actualités */
+main {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Style pour les liens - vous pouvez ajuster les couleurs pour mieux s'adapter à votre design */
+a:link, a:visited {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+/* Style supplémentaire pour améliorer la navigation */
+nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
