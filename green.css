@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header, footer {
+    background-color: #356859; /* Un vert foncé pour évoquer la nature */
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main .hero {
+    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+main .content {
+    padding: 2rem;
+    text-align: center;
+}
+
+main .content.green {
+    background-color: #37966F; /* Un ton de vert plus vif */
+    color: white;
+}
+
+main .cta {
+    background-color: #F0EFEB;
+    padding: 2rem;
+    text-align: center;
+}
+
+main .cta button {
+    background-color: #A5C9A1; /* Un vert doux pour les boutons */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+main .cta button:hover {
+    background-color: #8AA687;
+}
+
+footer {
+    font-size: 0.8rem;
+}
