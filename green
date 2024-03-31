@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marché du Carbone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Marché du Carbone Responsable</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p>Contribuez à un futur plus vert avec des projets de reforestation crédibles.</p>
+        </section>
+
+        <section class="content">
+            <h2>Investissez dans les forêts durables</h2>
+            <p>Notre marché vous permet d'acheter et de vendre des crédits carbone vérifiés.</p>
+        </section>
+
+        <section class="content green">
+            <h2>Projets Certifiés</h2>
+            <p>Découvrez des projets qui font la différence dans la lutte contre le changement climatique.</p>
+        </section>
+
+        <section class="content">
+            <h2>Impacts Locaux et Globaux</h2>
+            <p>Chaque crédit carbone contribue à des initiatives environnementales locales et mondiales.</p>
+        </section>
+
+        <section class="cta">
+            <p>Participez à la reforestation mondiale.</p>
+            <button>En savoir plus</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Marché du Carbone. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
