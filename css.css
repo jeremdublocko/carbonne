@@ -1,112 +1,104 @@
-css
-body {
-    font-family: Arial, sans-serif;
+/* Réinitialisation et styles de base */
+body, h1, h2, p, form, input, button {
     margin: 0;
     padding: 0;
-    background-color: #a4a4a4;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-/* Styles spécifiques pour la page d'actualités */
-main {
-    background-color: #f9f9f9;
-    padding: 20px;
-}
-
-section {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
-h2 {
-    color: #333;
-    margin-bottom: 15px;
-}
-
-p {
-    color: #666;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
 }
 
-/* Style pour les liens - vous pouvez ajuster les couleurs pour mieux s'adapter à votre design */
-a:link, a:visited {
-    color: #007bff;
-    text-decoration: none;
+body {
+    background-color: #E8F5E9; /* Fond clair évoquant la nature */
+    color: #333;
+    padding: 20px;
 }
 
-a:hover, a:active {
-    text-decoration: underline;
+/* En-tête */
+header {
+    background-color: #1B5E20; /* Vert foncé pour la tête de page */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-/* Style supplémentaire pour améliorer la navigation */
+/* Navigation */
 nav ul {
+    list-style-type: none;
     padding: 0;
     text-align: center;
 }
 
 nav ul li {
     display: inline-block;
-    list-style-type: none;
     margin-right: 20px;
 }
 
 nav ul li a {
     color: #fff;
     padding: 10px 15px;
-    background-color: #333;
+    background-color: #2E7D32; /* Vert nature pour les liens */
     border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #007bff;
+    background-color: #388E3C; /* Changement au survol */
 }
 
+/* Styles des sections */
+section {
+    background-color: #C8E6C9; /* Fond des sections rappelant la nature */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #1B5E20; /* Vert foncé pour les titres */
+    margin-bottom: 20px;
+}
+
+p, label {
+    color: #4E342E; /* Marron doux pour le texte, rappel de la terre */
+    margin-bottom: 10px;
+}
+
+/* Styles du formulaire */
+form {
+    background-color: #A5D6A7; /* Vert clair pour le fond du formulaire */
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input[type="number"], button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #388E3C; /* Vert vibrant pour le bouton */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1B5E20; /* Foncé au survol */
+}
+
+/* Pied de page */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #2E7D32; /* Vert nature pour le pied */
+    color: #fff;
     text-align: center;
     padding: 10px;
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: calc(100% - 40px);
 }
